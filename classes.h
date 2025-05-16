@@ -96,6 +96,7 @@ public:
         }
 
         // *TODO: Write out the slot directory. Optimally, it should start at the end of the page and grow backwards
+        // first draft
         char *page_end = page_data + 4096;
         int offset = 0;
 
