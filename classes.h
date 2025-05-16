@@ -69,6 +69,8 @@ public:
             cur_size += record_size; // Updating page size
 
             // *TODO: update slot directory information
+
+            // first draft
             slot_directory.push_back({records.end() - records.begin()-1, record_size});
             cur_size += slot_size;
 
